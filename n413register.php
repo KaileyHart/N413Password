@@ -37,6 +37,7 @@ function sanitize($item){
     $email = "";
     $password = "";
         
+    //checks user
     if(isset($_POST["username"])) { $username = $_POST["username"]; }
     $username = trim($username);
     if( strlen($username) < 5 ){
@@ -46,6 +47,7 @@ function sanitize($item){
         $username = sanitize($username);
     }
     
+    //Hash password
     if(isset($_POST["password"])) { $password = $_POST["password"]; }
     $password = trim($password);
     if( strlen($password) < 8 ){

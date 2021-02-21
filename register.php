@@ -28,7 +28,7 @@ include("head.php");
             <div class="mt-3">E-mail: <input type="email" id="email" name="email" class="form-control" value="" placeholder="Enter E-mail" required/></div>
             <div id="email_exists" class="error_msg"></div>
             <div id="email_validate" class="error_msg"></div>
-            <div class="mt-3">Password: <input type="password" id="password" name="password" class="form-control" value="" placeholder="Enter Password" required/></div>
+            <div class="mt-3">Password: <input type="password" id="password" name="password" class="form-control" value="" placeholder="Enter Password (Must be at least 8 characters)" required/></div>
             <div id="password_length" class="error_msg"></div>
             <div class="mt-5"><button type="submit" id="submit" class="btn btn-dark float-right">Submit</button></div>
         </div>  <!-- /#form-container -->

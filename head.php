@@ -24,7 +24,7 @@
    <script>
       function navbar_update(this_page) {
          $('#' + this_page + "_item").addClass('active');
-         $('#' + this_page + "_link").append('<span class="sr-only">(current)</span>');
+         //$('#' + this_page + "_link").append('<span class="sr-only">(current)</span>');
       };
    </script>
 
